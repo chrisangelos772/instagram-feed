@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin:0;
+    padding:0;
+    width: 100vw;
+    height:900vh;  
+}
+
+.row{
+    padding: 10px;
+    display: flex;
+}
+
+.top {
+    align-items: center;
+}
+
+h1 {
+    color:rgb(24, 118, 146);
+    display: inline-block;
+    font-size: 38px;
+    flex-grow: 10;
+}
+
+.postcard {
+    width: 600px;
+    height: 400px;
+}
+
+.column {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+p {
+    color: rgb(58, 55, 55);
+    font-style: Arial;
+    font-size: 22px;
+}
+
+button {
+   font-size: 14px;
+   font-style: bold;
+   width: 120px;
+   height: 50px;
+    background-color: rgb(81, 175, 204);
+    padding-top: 5px;
+    margin: 0 auto;
+    display: block;
+}
+
+form input {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.sign {
+    margin-top: 25px;
+}
+
+.bottom { 
+    margin-top: 30px;
+}
+
+.comments {
+    height: 80px;
+}
+
+input {
+border: none;
+border-bottom: 2px solid black;
+}
